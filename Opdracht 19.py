@@ -13,4 +13,5 @@ for x in range(cijfer):
 
     print("Dobbelsteen gegooid: ",[ dice_throw()])
 
+
 print(sum([]))

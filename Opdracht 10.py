@@ -1,4 +1,4 @@
-# Opdracht: 10. Delen (1)
+# Opdracht: 10. Delen (1) > nagekeken door Siebert op 24-11-2022
 # Vraag de gebruiker om 3 getallen in te voeren. Het programma deelt deze 3 getallen door elkaar en toont de uitkomst op vier decimalen nauwkeurig op het scherm.
 # Bron: workshop tijdens challenge 3
 # https://stackoverflow.com/questions/54968686/how-to-round-to-4-decimal-places#54971765
