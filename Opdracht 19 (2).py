@@ -1,3 +1,5 @@
+#gemaakt door Jason
+
 import random
 
 possibilities = [1,2,3,4,5,6]
