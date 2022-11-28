@@ -1,3 +1,4 @@
+# NOG NIET KLAAR
 # Opdracht 13. Wie heeft er gewonnen? (3)
 # Vraag hoeveel spelers er zijn. 
 # Afhankelijk van het aantal spelers vraag je per speler de naam en de score. 
