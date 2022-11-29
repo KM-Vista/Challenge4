@@ -12,7 +12,7 @@ namenlijst = [] #de lijst zelf
 namenlijst.append(naam) #item toevoegen aan de lijst 'namenlijst'
 
 while naam != 'UITSLAG': #herhaal vraag om input totdat 'UITSLAG' wordt ingegeven
-    naam = (input("Voer de naam in van de persoon waar je op stemt: ").lower()) #'.lower' om de invoer om te zetten naar kleine letters
+    naam = (input("Voer de naam in van de persoon waar je op stemt: ").upper()) #'.upper' om de invoer om te zetten naar grote letters vanwege 'UITSLAG'
     namenlijst.append(naam) #voegt de naam toe aan de lijst
 else:
     namenlijst.remove(namenlijst[-1]) #verwijder het latste item > 'UITSLAG'
