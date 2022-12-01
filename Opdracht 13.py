@@ -12,7 +12,6 @@ lijst.append
 {naam : score}
 
 
-
 while aantal != len{lijst}:
     naam = input("Voer de naam van de speler in: ")
     score = input("Voer de score in: ")

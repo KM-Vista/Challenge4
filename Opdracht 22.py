@@ -16,9 +16,9 @@ bezittingen = {
      'rugzak' : ['panfluit', 'dolk', 'slaapzak','appel']
 }
 
-bezittingen['zilver'] = 12
-bezittingen['buidel'].remove('zakmes')
+bezittingen['zilver'] = 12 #zilver toevoegen aan bezittingen
+bezittingen['buidel'].remove('zakmes') #zakmes verwijderen uit 'buidel'
 
-bezittingen['rugzak'].sort()
-print(bezittingen)
+bezittingen['rugzak'].sort() #inhoud van rugzak op alfabetische volgorde sorteren
+print(bezittingen) #alle bezittingen printen en de inhoud van rugzak op alfabetische volgorde
 
