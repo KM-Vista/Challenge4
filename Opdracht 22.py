@@ -8,7 +8,7 @@
 # Print je bezittingen in de terminal.
 # https://www.w3schools.com/python/python_dictionaries_add.asp
 # https://www.w3schools.com/python/python_dictionaries_remove.asp 
-# https://www.geeksforgeeks.org/python-sort-python-dictionaries-by-key-or-value/ 
+# https://www.geeksforgeeks.org/sort-in-python/
 
 bezittingen = {
      'goud' : 500,
@@ -19,9 +19,6 @@ bezittingen = {
 bezittingen['zilver'] = 12
 bezittingen['buidel'].remove('zakmes')
 
-#from collections import OrderedDict
-#bezittingen = OrderedDict(sorted(bezittingen.items()))
-#print(bezittingen)
+bezittingen['rugzak'].sort()
+print(bezittingen)
 
-sort_list = {l:sorted(m) for l, m in bezittingen()}
-print(sort)
