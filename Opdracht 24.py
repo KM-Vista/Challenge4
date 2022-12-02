@@ -1,3 +1,4 @@
+# NOG NIET KLAAR
 # Opdracht 24. Nachtjes slapen (4)
 # In deze exercise ga je een programma schrijven om voor een datum te berekenen hoeveel dagen geleden het deze datum was, 
 # of hoeveel dagen deze datum in de toekomst ligt. 
@@ -19,8 +20,9 @@ jaar = input("Voer hier het jaar in (JJJJ): ")
 maand = input("Voer hier de maand in (MM): ")
 dag = input("Voer hier de dag in (DD): ")
 
+dateformat = "%Y,%m,%d"
 vandaag = datetime.today()
-invoer = date(jaar,maand,dag) 
+invoer = date(jaar,maand,dag, dateformat)
 
 print(vandaag)
 print(invoer)
