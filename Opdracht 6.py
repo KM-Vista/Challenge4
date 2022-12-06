@@ -5,5 +5,5 @@ leeftijd = int(input("Voer je leeftijd in: "))
 
 if leeftijd >= 18:
     print("Je mag autorijden.")
-elif leeftijd < 18:
+else:
     print("Je mag nog niet autorijden.")
